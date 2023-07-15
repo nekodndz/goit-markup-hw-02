@@ -73,7 +73,7 @@
 .main-section {
   background-color: #2e2f42;
 }
-.main-section-heading1 {
+.main-section-heading-one {
   color: var(--white, #fff);
   text-align: center;
   font-size: 56px;
@@ -96,7 +96,7 @@
   background-color: #404bbf;
 }
 
-.advantages-heading2,
+.advantages-heading-two,
 .filter-heading {
   margin: -1px;
 
@@ -106,7 +106,7 @@
   overflow: hidden;
 }
 
-.advantages-heading3 {
+.advantages-heading-three {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -117,7 +117,7 @@
   color: #434455;
 }
 
-.projects-heading2 {
+.projects-heading-two {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -130,7 +130,7 @@
 .team {
   background: var(--cloud, #f4f4fd);
 }
-.team-heading2 {
+.team-heading-two {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -143,7 +143,7 @@
 .team-item {
   background: var(--white, #fff);
 }
-.team-heading3 {
+.team-heading-three {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 20px;
@@ -175,7 +175,7 @@
   background: var(--white, #ffffff);
 }
 
-.portfolio-heading3 {
+.portfolio-heading-three {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
