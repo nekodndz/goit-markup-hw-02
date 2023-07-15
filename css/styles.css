@@ -29,8 +29,7 @@
 .header {
   background: var(--white, #fff);
 }
-.nav {
-}
+
 .logo-header {
   color: var(--iris, #4d5ae5);
   font-family: "Raleway", sans-serif;
@@ -46,8 +45,8 @@
 }
 
 .nav-link {
-  font-style: normal;
   color: #2e2f42;
+  font-style: normal;
   font-weight: 500;
 }
 
@@ -57,9 +56,11 @@
   color: var(--ocean, #404bbf);
 }
 
-.address-link {
+.address {
   font-style: normal;
-  color: var(--slate, #434455);
+}
+.address-link {
+  color: #434455;
 }
 .address-link:hover,
 .address-link:focus,
@@ -68,10 +69,9 @@
 }
 
 /*---------------------MAIN--------------------------------*/
-.main {
-}
+
 .main-section {
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .main-section-heading1 {
   color: var(--white, #fff);
@@ -95,8 +95,7 @@
 .main-section-button:focus {
   background-color: #404bbf;
 }
-.advantages {
-}
+
 .advantages-heading2,
 .filter-heading {
   margin: -1px;
@@ -108,18 +107,18 @@
 }
 
 .advantages-heading3 {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .advantages-text {
-  color: var(--slate, #434455);
+  color: #434455;
 }
 
 .projects-heading2 {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -132,7 +131,7 @@
   background: var(--cloud, #f4f4fd);
 }
 .team-heading2 {
-  color: var(--navyblue, #2e2f42);
+  color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -171,14 +170,9 @@
   color: var(--white, #fff);
   background: var(--ocean, #404bbf);
 }
-.filer-item {
-}
-.portfolio-list {
-}
+
 .portfolio-item {
   background: var(--white, #ffffff);
-}
-.portfolio-link {
 }
 
 .portfolio-heading3 {
@@ -194,11 +188,11 @@
 
 /*-----------------------FOOTER------------------------*/
 .footer {
-  background: var(--navyblue, #2e2f42);
+  background-color: var(--navyblue, #2e2f42);
 }
 .logo-footer {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
